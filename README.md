@@ -1,0 +1,1 @@
+Snowflake Text Editor is a free, open source text editor built on top of Ace Text Editor and Atom-Shell.

@@ -1,0 +1,113 @@
+html, body {
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x:hidden;
+}
+
+html.copy, html.copy * {
+	cursor: copy !important;
+}
+
+#test {
+	z-index: 1000;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	background: #f00;
+	width: 20px;
+	height: 20px;
+}
+
+.pane-label {
+	position: absolute;
+	padding: 4px;
+	right: 0px;
+	color: #999;
+}
+
+.active-pane-label {
+	color: #900;
+}
+
+.pane-drop-down-label {
+	font-size: 8px;
+}
+
+.canvas-container {
+	height: 30px;
+	background-color: #222222;
+	width: auto;
+	overflow: hidden;
+}
+
+.contents {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.tab-content {
+	background-color: #141414;
+}
+
+li.jqtree_common {
+	font-size: 14px;
+}
+
+#tree {
+	float: left;
+	min-width: 100%;
+}
+
+/* COMMAND MENU */
+.commander {
+	outline: 0;
+	position: fixed;
+	top: 0px;
+	left: 400px;
+	z-index: 100;
+	display: none;
+	width: 400px;
+	max-width: 400px;
+	border: 1px solid #aaa;
+}
+
+.autocomplete-suggestions {
+	border: 1px solid #aaa;
+	color: #444;
+	background: #fbfbfb;
+	overflow: auto;
+	cursor: default;
+	-webkit-user-select: none;
+}
+
+.autocomplete-suggestion {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.autocomplete-selected {
+	background: #C7D3F7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C4D0F4), to(#CAD6FA));
+}
+
+.autocomplete-suggestions strong {
+	font-weight: normal;
+	color: #FF4411;
+}
+
+.unselectable {
+	-webkit-user-select: none;
+}
+
+
+
+
